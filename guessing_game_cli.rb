@@ -3,7 +3,7 @@ def run_guessing_game
   prompt_player
   guess = player_guess
 if answer == guess
-  p "You guessed the correct number!"
+  puts "You guessed the correct number!"
 end
 end
  
