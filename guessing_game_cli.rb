@@ -12,7 +12,7 @@ end
 
 def run_guessing_game
   computer_number
-  guess = player_guess
+  guess = gets.chomp
   if computer_number == guess
     puts "You guessed the correct number!"
   elsif guess == "exit"
