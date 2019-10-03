@@ -1,7 +1,7 @@
 def run_guessing_game
   answer = rand(1..6)
   prompt_player
-  guess = gets.chomp!
+  guess = player_guess
 if answer == guess
   p "You guessed the correct number!"
 end
