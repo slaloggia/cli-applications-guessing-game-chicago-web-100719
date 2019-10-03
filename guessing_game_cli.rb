@@ -11,9 +11,14 @@ def player_guess
 end
 
 def run_guessing_game
-  answer = rand(1..6)
+  computer_number
   prompt_player
   guess = player_guess
+  if computer_number == guess
+    puts "You guessed the correct number!"
+  else
+    puts "Sorry! The computer guessed #{computer_number}"
+  end
 end
  
 
