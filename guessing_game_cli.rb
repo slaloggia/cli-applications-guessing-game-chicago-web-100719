@@ -11,6 +11,8 @@ def prompt_player
   puts "Guess a number between 1 & 6"
 end
   
-  
+def player_guess
+  gets.chomp
+end
 
 
