@@ -11,14 +11,14 @@ def player_guess
 end
 
 def run_guessing_game
-  computer_number
+  answer = rand(1..6)
   guess = gets.chomp
-  if computer_number == guess
+  if answer == guess
     puts "You guessed the correct number!"
   elsif guess == "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{computer_number}"
+    puts "Sorry! The computer guessed #{answer}"
   end
 end
  
