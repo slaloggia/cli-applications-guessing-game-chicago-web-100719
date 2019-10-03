@@ -1,3 +1,7 @@
+def computer_number
+  rand(1..6)
+end
+
 def prompt_player
   puts "Guess a number between 1 & 6"
 end
